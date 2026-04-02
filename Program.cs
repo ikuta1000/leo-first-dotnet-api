@@ -34,7 +34,7 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast");
 
 // Added custom /hello endpoint
-app.MapGet("/hello", () => new { message = "Hello from Azure App Service!", timestamp = DateTime.UtcNow });
+app.MapGet("/hello", () => new { message = "Hello Ichinose Miku, Aya is amazing!", timestamp = DateTime.UtcNow });
 
 app.Run();
 
